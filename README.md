@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Jai Prakash</h1>
+<h1 align="center">Hi 👋, I'm Tejas Kumat</h1>
 <h3 align="center">A passionate Software Developer</h3>
 
 <!-- Profile Views Counter -->
