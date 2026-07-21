@@ -1,5 +1,6 @@
-<h1 align="center">Hi 👋, I'm Tejas Kumat</h1>
-<h3 align="center">A passionate Software Developer</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&pause=1000&color=0e75b6&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Tejas+Kumat+👋;Passionate+Software+Developer;Welcome+to+my+GitHub!" alt="Typing SVG" />
+</p>
 
 <!-- Profile Views Counter -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=TejasKumat8&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" /> </p>
@@ -7,11 +8,10 @@
 - 🔭 I’m currently working on **building scalable applications**
 - 🌱 I’m currently learning **Advanced System Design**
 - 💬 Ask me about **Java, Python, and Web Development**
-- 📫 How to reach me: **[Add your email address here]**
+- 📫 How to reach me: **kumattejass375@gmail.com**
 
 <h3 align="left">🌐 Connect with me:</h3>
 <p align="left">
-<!-- Add your LinkedIn username below where it says tejas-kumat-6756b7331 -->
 <a href="https://linkedin.com/in/tejas-kumat-6756b7331" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
 </p>
 
@@ -27,10 +27,16 @@
 </p>
 
 <h3 align="left">📊 GitHub Stats:</h3>
-<!-- IMPORTANT: Replace TejasKumat8 below with your actual username -->
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=TejasKumat8&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TejasKumat8&layout=compact&theme=radical" alt="Top Languages" />
 </p>
+
+<h3 align="left">🐍 My Contributions:</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-contribution-grid-snake.svg">
+</picture>
