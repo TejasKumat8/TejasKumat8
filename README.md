@@ -8,7 +8,6 @@
 - 🔭 I’m currently working on **building scalable applications**
 - 🌱 I’m currently learning **Advanced System Design**
 - 💬 Ask me about **Java, Python, and Web Development**
-- 📫 How to reach me: **kumattejass375@gmail.com**
 
 <h3 align="left">🌐 Connect with me:</h3>
 <p align="left">
@@ -33,10 +32,3 @@
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TejasKumat8&layout=compact&theme=radical" alt="Top Languages" />
 </p>
-
-<h3 align="left">🐍 My Contributions:</h3>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-contribution-grid-snake.svg">
-</picture>
