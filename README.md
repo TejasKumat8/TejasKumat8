@@ -27,8 +27,8 @@ class Tejas:
 <p align="center">
   <a href="https://github.com/TejasKumat8/RepoVerse"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=RepoVerse&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="RepoVerse" /></a>
   <a href="https://github.com/TejasKumat8/clinicpulse-devops-capstone"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=clinicpulse-devops-capstone&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="ClinicPulse" /></a>
-  <a href="https://github.com/TejasKumat8/HLD-Project-"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=HLD-Project-&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="SearchIQ" /></a>
-  <a href="https://github.com/TejasKumat8/-Multi-threaded-HTTP-server"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=-Multi-threaded-HTTP-server&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="Multi-threaded HTTP server" /></a>
+  <a href="https://github.com/TejasKumat8/searchiq"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=searchiq&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="SearchIQ" /></a>
+  <a href="https://github.com/TejasKumat8/multithreaded-http-server"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=multithreaded-http-server&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="Multi-threaded HTTP server" /></a>
 </p>
 
 ## `❯ cat stack.txt`
