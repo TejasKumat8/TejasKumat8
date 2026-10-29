@@ -1,20 +1,45 @@
-# 💫 About Me:
-🔭 I'm currently working on:<br>AI-powered applications, backend APIs with FastAPI, and full-stack web projects.<br><br>👯 I'm looking to collaborate on:<br>Open-source AI projects, backend systems, and developer tools.<br><br>🤝 I'm looking for help with:<br>Agentic AI, RAG pipelines, MCP (Model Context Protocol), and cloud deployment.<br><br>🌱 I'm currently learning:<br>LangGraph, MCP, Docker, Kubernetes, System Design, and Advanced FastAPI.<br><br>💬 Ask me about:<br>Python, FastAPI, React, REST APIs, AI applications, Git, GitHub, and Full-Stack Development.<br><br>⚡ Fun fact:<br>I enjoy turning ideas into real-world AI products and believe the best way to learn is by building.
+<div align="center">
 
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=26&pause=1200&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Tejas+%F0%9F%91%8B;Backend+%26+AI+Engineer;Open+source+%40+istSOS+(OSGeo);Python+%C2%B7+FastAPI+%C2%B7+PostgreSQL+%C2%B7+React" alt="Typing intro" />
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tejaskumat_45) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tejas-kumat-6756b7331) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kumattejas375@gmail.com) 
+<p>
+  <a href="https://linkedin.com/in/tejas-kumat-6756b7331"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:kumattejas375@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Bengaluru%2C%20India-555?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+</p>
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
+</div>
 
-![](https://streak-stats.demolab.com/?user=TejasKumat8&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=TejasKumat8&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+```python
+class Tejas:
+    role      = "CS student · Backend & AI engineer"
+    location  = "Bengaluru, India"
+    builds    = ["backend systems", "AI applications", "cloud-native infra"]
+    stack     = ["Python", "FastAPI", "PostgreSQL", "React", "Docker", "Kubernetes"]
+    now       = "contributing to istSOS4, an OGC SensorThings API server (OSGeo)"
+    learning  = ["LangGraph", "MCP", "distributed systems"]
+```
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## 🌍 Open source
 
----
-[![](https://komarev.com/ghpvc/?username=TejasKumat8&icon=0&color=0)](https://visitcount.itsvg.in)
+**[istSOS4](https://github.com/istSOS/istSOS4)**: open-source server for environmental sensor data, implementing the OGC SensorThings API. Part of [OSGeo](https://www.osgeo.org/).
 
+| Contribution | Status |
+|---|---|
+| Fixed `$count=true` failing (400/500) in the estimate count modes after the SQLAlchemy 2.1 upgrade: [#241](https://github.com/istSOS/istSOS4/issues/241) → [PR #242](https://github.com/istSOS/istSOS4/pull/242) | [![PR #242](https://img.shields.io/github/pulls/detail/state/istSOS/istSOS4/242?label=PR%20%23242&style=flat-square)](https://github.com/istSOS/istSOS4/pull/242) |
+| Fixed `$top=0` returning a self-referencing `@iot.nextLink` inside `$expand`, an infinite paging loop: [#238](https://github.com/istSOS/istSOS4/issues/238) → [PR #239](https://github.com/istSOS/istSOS4/pull/239) | [![PR #239](https://img.shields.io/github/pulls/detail/state/istSOS/istSOS4/239?label=PR%20%23239&style=flat-square)](https://github.com/istSOS/istSOS4/pull/239) |
+
+## 🚀 Featured projects
+
+| | Project | Stack |
+|---|---|---|
+| 🧠 | **[RepoVerse](https://github.com/TejasKumat8/RepoVerse)**: understand any GitHub repository with AI, using RAG over source code | ![](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) |
+| ☁️ | **[ClinicPulse](https://github.com/TejasKumat8/clinicpulse-devops-capstone)**: outpatient scheduling platform shipped through a full cloud-native pipeline (CI/CD, image scanning, EKS, observability) | ![](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) |
+| ⚡ | **[SearchIQ](https://github.com/TejasKumat8/HLD-Project-)**: search typeahead with a compressed trie and a consistent-hashing distributed cache | ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/System%20Design-555?style=flat-square) |
+| 🔌 | **[Multi-threaded HTTP server](https://github.com/TejasKumat8/-Multi-threaded-HTTP-server)**: HTTP server from raw sockets with a thread pool | ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Sockets-555?style=flat-square) |
+
+## 🧰 Tech stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,react,ts,java,spring,mongodb,redis,docker,kubernetes,aws,githubactions,git,linux&perline=8" alt="Tech stack" />
+</p>
