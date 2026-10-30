@@ -1,57 +1,60 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Tejas Kumat — Backend & AI Engineer" />
+  <img src="./assets/hero.svg" width="100%" alt="Ground Station TK-01: Tejas Kumat, backend and AI engineer, Bengaluru" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/tejas-kumat-6756b7331"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:kumattejas375@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Bengaluru,%20India-1b1f3b?style=for-the-badge&logo=googlemaps&logoColor=00f0ff" alt="Bengaluru, India" />
+  <a href="https://linkedin.com/in/tejas-kumat-6756b7331"><img src="https://img.shields.io/badge/LinkedIn-open_channel-07101c?style=for-the-badge&logo=linkedin&logoColor=4fd1ff&labelColor=0b1a2b" alt="LinkedIn" /></a>
+  <a href="mailto:kumattejas375@gmail.com"><img src="https://img.shields.io/badge/Email-send_signal-07101c?style=for-the-badge&logo=gmail&logoColor=ffb347&labelColor=0b1a2b" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Base-12.97°N_77.59°E-07101c?style=for-the-badge&logo=googlemaps&logoColor=3dff8a&labelColor=0b1a2b" alt="Bengaluru, India" />
 </p>
 
-## `❯ whoami`
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=TejasKumat8&label=SIGNALS+INTERCEPTED&color=ffb347&style=for-the-badge" height="42" alt="Profile views" /><br/>
+  <sub><code>⚠ your visit has been logged by ground control. you are now a data point. welcome aboard.</code></sub>
+</p>
 
-```python
-class Tejas:
-    role     = "CS student · Backend & AI engineer"
-    location = "Bengaluru, India 🇮🇳"
-    builds   = ["backend systems", "AI applications", "cloud-native infra"]
-    stack    = ["Python", "FastAPI", "PostgreSQL", "React", "Docker", "Kubernetes"]
-    learning = ["LangGraph", "MCP", "distributed systems"]
+<img src="./assets/sec-telemetry.svg" width="100%" alt="01 Telemetry" />
 
-    def motto(self):
-        return "Read the docs. Write the test. Ship it."
+```yaml
+operator:  Tejas Kumat
+class:     CS undergrad · backend & AI engineer
+base:      Bengaluru, IN
+core:      [Python, FastAPI, PostgreSQL, React, Docker, Kubernetes]
+training:  [LangGraph, MCP, distributed systems]
+doctrine:  "Read the docs. Write the test. Ship it."
+status:    ONLINE
 ```
 
-## `❯ ls ./projects`
+<img src="./assets/sec-missions.svg" width="100%" alt="02 Missions" />
 
 <p align="center">
-  <a href="https://github.com/TejasKumat8/RepoVerse"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=RepoVerse&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="RepoVerse" /></a>
-  <a href="https://github.com/TejasKumat8/clinicpulse-devops-capstone"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=clinicpulse-devops-capstone&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="ClinicPulse" /></a>
-  <a href="https://github.com/TejasKumat8/searchiq"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=searchiq&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="SearchIQ" /></a>
-  <a href="https://github.com/TejasKumat8/multithreaded-http-server"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=multithreaded-http-server&bg_color=0b0f2a&title_color=00f0ff&text_color=c9d1ff&icon_color=ff2bd6&hide_border=true&border_radius=12" alt="Multi-threaded HTTP server" /></a>
+  <a href="https://github.com/TejasKumat8/RepoVerse"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=RepoVerse&bg_color=07101c&title_color=4fd1ff&text_color=9fb3c8&icon_color=ffb347&border_color=1f3e55&border_radius=6" alt="RV-01 RepoVerse" /></a>
+  <a href="https://github.com/TejasKumat8/clinicpulse-devops-capstone"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=clinicpulse-devops-capstone&bg_color=07101c&title_color=4fd1ff&text_color=9fb3c8&icon_color=ffb347&border_color=1f3e55&border_radius=6" alt="CP-02 ClinicPulse" /></a>
+  <a href="https://github.com/TejasKumat8/searchiq"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=searchiq&bg_color=07101c&title_color=4fd1ff&text_color=9fb3c8&icon_color=ffb347&border_color=1f3e55&border_radius=6" alt="SQ-03 SearchIQ" /></a>
+  <a href="https://github.com/TejasKumat8/multithreaded-http-server"><img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=TejasKumat8&repo=multithreaded-http-server&bg_color=07101c&title_color=4fd1ff&text_color=9fb3c8&icon_color=ffb347&border_color=1f3e55&border_radius=6" alt="HT-04 Multi-threaded HTTP server" /></a>
 </p>
 
-## `❯ cat stack.txt`
+<img src="./assets/sec-payload.svg" width="100%" alt="03 Payload" />
 
 <table align="center">
   <tr>
-    <td align="center"><b>Languages</b><br/><br/><img src="https://skillicons.dev/icons?i=python,ts,js,java&theme=dark" alt="Languages" /></td>
-    <td align="center"><b>Backend & Data</b><br/><br/><img src="https://skillicons.dev/icons?i=fastapi,spring,postgres,mongodb,redis&theme=dark" alt="Backend" /></td>
+    <td align="center"><code>PROPULSION</code><br/><sub>languages</sub><br/><br/><img src="https://skillicons.dev/icons?i=python,ts,js,java&theme=dark" alt="Python, TypeScript, JavaScript, Java" /></td>
+    <td align="center"><code>CORE SYSTEMS</code><br/><sub>backend &amp; data</sub><br/><br/><img src="https://skillicons.dev/icons?i=fastapi,spring,postgres,mongodb,redis&theme=dark" alt="FastAPI, Spring, PostgreSQL, MongoDB, Redis" /></td>
   </tr>
   <tr>
-    <td align="center"><b>Frontend</b><br/><br/><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend" /></td>
-    <td align="center"><b>DevOps & Cloud</b><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,githubactions,linux&theme=dark" alt="DevOps" /></td>
+    <td align="center"><code>HUD</code><br/><sub>frontend</sub><br/><br/><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="React, Next.js, Tailwind" /></td>
+    <td align="center"><code>LAUNCH INFRA</code><br/><sub>devops &amp; cloud</sub><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,githubactions,linux&theme=dark" alt="Docker, Kubernetes, AWS, GitHub Actions, Linux" /></td>
   </tr>
 </table>
 
-## `❯ ./snake --eat contributions`
+<img src="./assets/sec-defense-grid.svg" width="100%" alt="04 Defense grid" />
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/TejasKumat8/TejasKumat8/output/github-snake-dark.svg" width="100%" alt="Snake eating my contribution graph" />
-  </picture>
+  <img src="./assets/space-shooter.gif" width="100%" alt="A spaceship shooting down my contribution graph" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,50:7b5cff,100:ff2bd6&height=110&section=footer" width="100%" alt="" />
+<p align="center">
+  <sub><code>INCIDENT REPORT: operator keeps shooting down their own commits. asked to stop. response: "relax, I'll just push more."</code></sub>
+</p>
+
+<img src="./assets/footer.svg" width="100%" alt="End of transmission" />

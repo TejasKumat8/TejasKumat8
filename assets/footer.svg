@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130">
+  <defs>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#07101c"/>
+      <stop offset="0.15" stop-color="#07101c" stop-opacity="0"/>
+      <stop offset="0.85" stop-color="#07101c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#07101c"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+      .blink { animation: blink 1.2s steps(2, start) infinite; }
+      @keyframes blink { to { visibility: hidden; } }
+    </style>
+  </defs>
+  <rect width="1000" height="130" rx="6" fill="#07101c"/>
+
+  <!-- carrier wave, scrolling -->
+  <g opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-80 0" dur="2s" repeatCount="indefinite"/>
+    <path d="M0 40 Q20 22 40 40 T80 40 T120 40 T160 40 T200 40 T240 40 T280 40 T320 40 T360 40 T400 40 T440 40 T480 40 T520 40 T560 40 T600 40 T640 40 T680 40 T720 40 T760 40 T800 40 T840 40 T880 40 T920 40 T960 40 T1000 40 T1040 40 T1080 40" fill="none" stroke="#4fd1ff" stroke-width="1.5" filter="url(#glow)"/>
+  </g>
+  <rect width="1000" height="80" fill="url(#fade)"/>
+
+  <g class="mono" text-anchor="middle">
+    <text x="500" y="88" font-size="17" font-weight="700" fill="#e8f4ff" letter-spacing="6">── END OF TRANSMISSION ──</text>
+    <text x="500" y="114" font-size="12" fill="#ffb347" letter-spacing="3">73 · SEE YOU ON THE NEXT PASS</text>
+  </g>
+  <rect x="712" y="74" width="9" height="16" fill="#4fd1ff" class="blink"/>
+</svg>

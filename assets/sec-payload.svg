@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="60" viewBox="0 0 1000 60">
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+  </style>
+  <rect width="1000" height="60" rx="6" fill="#07101c"/>
+  <path d="M2 14V2H14M986 2H998V14M2 46V58H14M986 58H998V46" stroke="#4fd1ff" stroke-width="2" fill="none" opacity="0.8"/>
+  <g class="mono">
+    <text x="26" y="38" font-size="16" fill="#ffb347" letter-spacing="2">[03]</text>
+    <text x="78" y="38" font-size="20" font-weight="700" fill="#e8f4ff" letter-spacing="4">PAYLOAD</text>
+    <text x="207" y="38" font-size="12" fill="#6f8aa3" letter-spacing="1">// onboard systems</text>
+    <text x="974" y="38" font-size="11" fill="#4fd1ff" letter-spacing="2" text-anchor="end">HW.MANIFEST</text>
+  </g>
+  <path d="M361 33H857" stroke="#1f3e55" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="361" cy="33" r="3" fill="#4fd1ff">
+    <animate attributeName="cx" values="361;857;361" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

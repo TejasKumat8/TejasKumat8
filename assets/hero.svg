@@ -1,84 +1,171 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#05060f"/>
-      <stop offset="60%" stop-color="#0b0f2a"/>
-      <stop offset="100%" stop-color="#11092b"/>
-    </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00f0ff"/>
-      <stop offset="50%" stop-color="#7b5cff"/>
-      <stop offset="100%" stop-color="#ff2bd6"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="6s" repeatCount="indefinite"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#1b2a5a" stroke-width="1"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 40" dur="3s" repeatCount="indefinite"/>
+    <radialGradient id="bg" cx="18%" cy="50%" r="90%">
+      <stop offset="0%" stop-color="#0b1a2b"/>
+      <stop offset="55%" stop-color="#07101c"/>
+      <stop offset="100%" stop-color="#04080f"/>
+    </radialGradient>
+    <radialGradient id="scope" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0e2b3d"/>
+      <stop offset="100%" stop-color="#061420"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#0f2233" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.18"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="scopeClip"><circle cx="180" cy="180" r="130"/></clipPath>
     <clipPath id="typeClip">
-      <rect x="0" y="0" height="320" width="0">
-        <animate attributeName="width" values="0;1000;1000;0" keyTimes="0;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+      <rect x="400" y="300" height="30" width="0">
+        <animate attributeName="width" values="0;350;350;0" keyTimes="0;0.4;0.92;1" dur="9s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <style>
-      .mono { font-family: 'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace; }
-      .name { font-size: 76px; font-weight: 800; letter-spacing: 6px; }
-      .ghost-c { fill: #00f0ff; opacity: 0; animation: glitchC 4s infinite steps(1); }
-      .ghost-m { fill: #ff2bd6; opacity: 0; animation: glitchM 4s infinite steps(1); }
-      @keyframes glitchC { 0%,86%,100% { opacity: 0; transform: translate(0,0); } 88% { opacity: .8; transform: translate(-5px,2px); } 92% { opacity: .6; transform: translate(4px,-2px); } }
-      @keyframes glitchM { 0%,87%,100% { opacity: 0; transform: translate(0,0); } 89% { opacity: .8; transform: translate(5px,-1px); } 93% { opacity: .6; transform: translate(-4px,2px); } }
-      .cursor { animation: blink 1s infinite steps(1); }
-      @keyframes blink { 50% { opacity: 0; } }
-      .scan { animation: scan 5s linear infinite; }
-      @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(340px); } }
-      .float1 { animation: float 7s ease-in-out infinite; }
-      .float2 { animation: float 9s ease-in-out infinite reverse; }
-      @keyframes float { 0%,100% { transform: translateY(0); opacity: .35; } 50% { transform: translateY(-18px); opacity: .9; } }
+      .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+      .cy { fill: #4fd1ff; } .am { fill: #ffb347; } .gr { fill: #3dff8a; } .mu { fill: #6f8aa3; } .wh { fill: #e8f4ff; }
+      .blink { animation: blink 1.2s steps(2, start) infinite; }
+      @keyframes blink { to { visibility: hidden; } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
     </style>
   </defs>
 
-  <!-- background -->
-  <rect width="1000" height="320" rx="18" fill="url(#bg)"/>
-  <rect width="1000" height="320" rx="18" fill="url(#grid)" opacity="0.45"/>
-  <rect class="scan" x="0" y="0" width="1000" height="40" fill="#00f0ff" opacity="0.05"/>
+  <!-- backdrop -->
+  <rect width="1000" height="360" fill="url(#bg)"/>
+  <rect width="1000" height="360" fill="url(#grid)" opacity="0.7"/>
 
-  <!-- floating particles -->
-  <g class="float1"><circle cx="90" cy="250" r="3" fill="#00f0ff"/><circle cx="880" cy="80" r="2.5" fill="#ff2bd6"/><circle cx="760" cy="260" r="2" fill="#7b5cff"/></g>
-  <g class="float2"><circle cx="180" cy="70" r="2" fill="#ff2bd6"/><circle cx="930" cy="230" r="3" fill="#00f0ff"/><circle cx="620" cy="50" r="2" fill="#7b5cff"/></g>
-
-  <!-- HUD corners -->
-  <g stroke="#00f0ff" stroke-width="3" fill="none" opacity="0.8">
-    <path d="M24 64V24H64"/><path d="M936 24H976V64"/><path d="M976 256V296H936"/><path d="M64 296H24V256"/>
+  <!-- HUD corner brackets -->
+  <g stroke="#4fd1ff" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M14 44V14H44"/><path d="M956 14H986V44"/>
+    <path d="M14 316V346H44"/><path d="M956 346H986V316"/>
   </g>
 
-  <!-- terminal header -->
-  <g class="mono" font-size="14" fill="#6b7aa8">
-    <circle cx="52" cy="48" r="6" fill="#ff5f56"/><circle cx="72" cy="48" r="6" fill="#ffbd2e"/><circle cx="92" cy="48" r="6" fill="#27c93f"/>
-    <text x="118" y="53">~/tejas — zsh</text>
-    <text x="926" y="53" text-anchor="end" fill="#27c93f">● online</text>
+  <!-- ===== RADAR ===== -->
+  <circle cx="180" cy="180" r="138" fill="none" stroke="#1d4a63" stroke-width="1"/>
+  <circle cx="180" cy="180" r="130" fill="url(#scope)" stroke="#4fd1ff" stroke-width="1.5" opacity="0.95"/>
+  <g stroke="#1f5674" stroke-width="1" fill="none">
+    <circle cx="180" cy="180" r="87"/>
+    <circle cx="180" cy="180" r="43"/>
+    <path d="M50 180H310M180 50V310"/>
+    <path d="M88 88L272 272M272 88L88 272" stroke-dasharray="2 6"/>
+  </g>
+  <g stroke="#4fd1ff" stroke-width="1" opacity="0.6">
+    <path d="M180 42v8M180 310v8M42 180h8M310 180h8"/>
+  </g>
+  <g class="mono mu" font-size="9">
+    <text x="171" y="36">000</text><text x="322" y="183">090</text>
+    <text x="171" y="332">180</text><text x="18" y="183">270</text>
   </g>
 
-  <!-- name with glitch -->
-  <g class="mono name" text-anchor="middle">
-    <text class="ghost-c" x="500" y="160">TEJAS KUMAT</text>
-    <text class="ghost-m" x="500" y="160">TEJAS KUMAT</text>
-    <text x="500" y="160" fill="url(#neon)" filter="url(#glow)">TEJAS KUMAT</text>
+  <!-- sweep: stacked wedges fade into the leading edge -->
+  <g clip-path="url(#scopeClip)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 180 180" to="360 180 180" dur="4s" repeatCount="indefinite"/>
+      <path d="M180 180L180 50A130 130 0 0 1 191.33 50.49Z" fill="#4fd1ff" opacity="0.04"/>
+      <path d="M180 180L191.33 50.49A130 130 0 0 1 202.57 51.98Z" fill="#4fd1ff" opacity="0.07"/>
+      <path d="M180 180L202.57 51.98A130 130 0 0 1 213.65 54.43Z" fill="#4fd1ff" opacity="0.10"/>
+      <path d="M180 180L213.65 54.43A130 130 0 0 1 224.46 57.84Z" fill="#4fd1ff" opacity="0.14"/>
+      <path d="M180 180L224.46 57.84A130 130 0 0 1 234.94 62.18Z" fill="#4fd1ff" opacity="0.18"/>
+      <path d="M180 180L234.94 62.18A130 130 0 0 1 245 67.42Z" fill="#4fd1ff" opacity="0.23"/>
+      <path d="M180 180L245 67.42A130 130 0 0 1 254.57 73.51Z" fill="#4fd1ff" opacity="0.29"/>
+      <path d="M180 180L254.57 73.51A130 130 0 0 1 263.56 80.42Z" fill="#4fd1ff" opacity="0.36"/>
+      <path d="M180 180L263.56 80.42" stroke="#9be7ff" stroke-width="2" filter="url(#glow)"/>
+    </g>
   </g>
 
-  <!-- typed subtitle -->
-  <g class="mono" font-size="24" text-anchor="middle" clip-path="url(#typeClip)">
-    <text x="500" y="215" fill="#c9d1ff"><tspan fill="#27c93f">❯</tspan> Backend &amp; AI Engineer · Building things that ship<tspan class="cursor" fill="#00f0ff"> ▌</tspan></text>
+  <!-- contacts = projects; each lights up when the sweep edge reaches it -->
+  <g class="mono" font-size="9">
+    <g opacity="0.15">
+      <animate attributeName="opacity" values="1;0.15" dur="4s" begin="0.22s" repeatCount="indefinite"/>
+      <circle cx="257.9" cy="135" r="4" fill="#ffb347" filter="url(#glow)"/>
+      <text x="266" y="132" class="am">RV-01</text>
+    </g>
+    <g opacity="0.15">
+      <animate attributeName="opacity" values="1;0.15" dur="4s" begin="1.22s" repeatCount="indefinite"/>
+      <circle cx="215" cy="240.6" r="4" fill="#ffb347" filter="url(#glow)"/>
+      <text x="223" y="252" class="am">CP-02</text>
+    </g>
+    <g opacity="0.15">
+      <animate attributeName="opacity" values="1;0.15" dur="4s" begin="2.33s" repeatCount="indefinite"/>
+      <circle cx="86" cy="214.2" r="4" fill="#ffb347" filter="url(#glow)"/>
+      <text x="62" y="232" class="am">SQ-03</text>
+    </g>
+    <g opacity="0.15">
+      <animate attributeName="opacity" values="1;0.15" dur="4s" begin="3.11s" repeatCount="indefinite"/>
+      <circle cx="144.6" cy="137.9" r="4" fill="#ffb347" filter="url(#glow)"/>
+      <text x="108" y="128" class="am">HT-04</text>
+    </g>
+    <g opacity="0.15">
+      <animate attributeName="opacity" values="1;0.15" dur="4s" begin="3.78s" repeatCount="indefinite"/>
+      <circle cx="219.3" cy="71.9" r="3" fill="#3dff8a" filter="url(#glow)"/>
+    </g>
+  </g>
+  <circle cx="180" cy="180" r="3.5" fill="#e8f4ff"/>
+
+  <!-- ===== CONSOLE ===== -->
+  <g class="mono">
+    <text x="380" y="58" font-size="13" letter-spacing="3" class="am">GROUND STATION // TK-01</text>
+    <g transform="translate(905 49)">
+      <circle cx="0" cy="4" r="5" fill="#3dff8a" class="pulse" filter="url(#glow)"/>
+      <text x="12" y="9" font-size="13" letter-spacing="2" class="gr">LIVE</text>
+    </g>
+    <path d="M380 72H980" stroke="#1f3e55" stroke-width="1"/>
+
+    <text x="378" y="138" font-size="60" font-weight="700" letter-spacing="6" class="wh" filter="url(#glow)">TEJAS KUMAT</text>
+    <text x="382" y="170" font-size="15" letter-spacing="4" class="cy">OPERATOR · BACKEND &amp; AI ENGINEER</text>
+
+    <g font-size="13">
+      <text x="382" y="212" class="mu">LOC</text>
+      <text x="436" y="212" class="wh">12.97°N 77.59°E</text>
+      <text x="622" y="212" class="mu">BASE</text>
+      <text x="676" y="212" class="wh">BENGALURU, IN</text>
+
+      <text x="382" y="238" class="mu">CORE</text>
+      <text x="436" y="238" class="wh">PYTHON · FASTAPI · POSTGRES</text>
+
+      <text x="382" y="264" class="mu">MSN</text>
+      <rect x="436" y="252" width="70" height="16" fill="#ffb347" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;0.55;0.9" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="514" y="264" class="am" letter-spacing="1">CLASSIFIED</text>
+      <text x="622" y="264" class="mu">UPLINK</text>
+      <text x="676" y="264" class="gr">LOCKED</text>
+    </g>
+
+    <!-- signal bars -->
+    <g transform="translate(676 226)" fill="#4fd1ff">
+      <rect x="0"  y="8" width="6" height="6"/>
+      <rect x="9"  y="5" width="6" height="9"/>
+      <rect x="18" y="2" width="6" height="12"/>
+      <rect x="27" y="-1" width="6" height="15"/>
+      <rect x="36" y="-4" width="6" height="18" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- telemetry waveform, scrolling -->
+    <svg x="840" y="196" width="140" height="76" viewBox="0 0 140 76">
+      <rect width="140" height="76" fill="#061420" stroke="#1f3e55"/>
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-60 0" dur="1.5s" repeatCount="indefinite"/>
+        <path d="M0 38H10L15 20L20 56L25 38H70L75 20L80 56L85 38H130L135 20L140 56L145 38H190L195 20L200 56L205 38H250" fill="none" stroke="#3dff8a" stroke-width="1.8" filter="url(#glow)"/>
+      </g>
+    </svg>
+
+    <!-- terminal line -->
+    <text x="382" y="320" font-size="14" class="cy">&gt;</text>
+    <g clip-path="url(#typeClip)">
+      <text x="400" y="320" font-size="14" class="wh">uplink established · awaiting next mission</text>
+    </g>
+    <rect x="400" y="308" width="9" height="15" fill="#4fd1ff" class="blink">
+      <animate attributeName="x" values="400;750;750;400" keyTimes="0;0.4;0.92;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!-- tags -->
-  <g class="mono" font-size="15" text-anchor="middle">
-    <g transform="translate(290,262)"><rect x="-62" y="-20" width="124" height="30" rx="15" fill="#00f0ff" fill-opacity="0.12" stroke="#00f0ff"/><text y="1" fill="#00f0ff">Python</text></g>
-    <g transform="translate(430,262)"><rect x="-62" y="-20" width="124" height="30" rx="15" fill="#7b5cff" fill-opacity="0.15" stroke="#7b5cff"/><text y="1" fill="#b9a8ff">FastAPI</text></g>
-    <g transform="translate(570,262)"><rect x="-62" y="-20" width="124" height="30" rx="15" fill="#ff2bd6" fill-opacity="0.12" stroke="#ff2bd6"/><text y="1" fill="#ff8ae9">AI / RAG</text></g>
-    <g transform="translate(710,262)"><rect x="-62" y="-20" width="124" height="30" rx="15" fill="#27c93f" fill-opacity="0.12" stroke="#27c93f"/><text y="1" fill="#7dfc94">Cloud</text></g>
-  </g>
+  <rect width="1000" height="360" fill="url(#scan)"/>
 </svg>
